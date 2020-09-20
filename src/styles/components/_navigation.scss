@@ -1,5 +1,6 @@
 .sidebar {
     background: $color-1;
+    box-shadow: -30px 10px 40px rgb(32, 31, 31);
     font-family: $font-1;
     height: 100%;
     min-height: $minHeight;
@@ -43,6 +44,8 @@
     .navigation {
         grid-area: 2;
         padding: 2rem 1rem;
+        position: relative;
+        left: 30px;
 
         ul {
             height: 100%;
@@ -141,9 +144,17 @@
             ul {
                 display: flex;
                 justify-content: space-between;
+                position: relative;
+                right: 40px;
+
+                i {
+                font-size: 1.2rem !important;
+                }
 
                 span {
-                    margin-left: 1.5rem !important;
+                    margin: 1.5rem !important;
+                    font-size: 18px;
+                    
                 }
             }
         }
@@ -153,7 +164,8 @@
     .sidebar {
         ul {
             justify-content: space-around !important;
-
+            position: relative;
+            right: 40px;
             li {
                 padding: 1rem 0 !important;
             }
