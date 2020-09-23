@@ -13,7 +13,7 @@
             "O O H";
 
         .languagesFramework, .experience, .otherSkills, .hobbies {
-            background: $color-2;
+            background: $color2;
             border-radius: $borderRadius;
             padding: .8rem
         }
@@ -124,12 +124,15 @@
               color: $color-5;
             }
             h5 {
-              color: $color-3;
+              color: black;
+              font-size: 14px;
               padding: 0.5rem 0 0.5rem 1rem;
             }
             p {
               text-align: justify;
-              padding: 0 1rem;
+              padding: 0 2rem;
+              color: bisque;
+              font-size: 20px;
             }
             .exp-1 {
               grid-area: 2;
@@ -214,11 +217,11 @@
         display: grid !important;
         grid-template-columns: 1fr !important;
         grid-template-rows: 1fr 1fr 180px 180px !important;
-        grid-template-areas: 
-        "1"
-        "2"
-        "3"
-        "4" !important;
+        // grid-template-areas: 
+        // "3"
+        // "2"
+        // "3"
+        // "4" !important;
         
         .languages {
         grid-area: 1 !important;

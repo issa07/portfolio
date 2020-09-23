@@ -1,8 +1,7 @@
 .home {
-
     .homeContent {
-      background: linear-gradient(115deg, $color-1 30%, transparent 100%);
-      box-shadow: 30px 10px 40px rgb(32, 31, 31);
+      background: linear-gradient(115deg, $color1 50%, transparent 90%);
+      box-shadow: 20px 10px 70px rgba(255, 181, 71, 0.507);
       min-height: $minHeight;
       width: 100%;
       min-height: 500px;
@@ -15,7 +14,7 @@
         position: absolute;
         height: 100%;
         width: inherit;
-        background: url('../../media/pc.jpg') no-repeat center/cover;
+        background: url('../../media/pc2.jpg') no-repeat center/cover;
         z-index: -1;
         filter: brightness(50%);
       }

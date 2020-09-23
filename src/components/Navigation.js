@@ -43,7 +43,7 @@ const Navigation = () => {
             <div className="socialNetwork">
                 <ul>
                     <li>
-                        <a href="https://www.google.fr" target="_blank" rel="noopener noreferrer" >
+                        <a href="https://www.google.com" target="_blank" rel="noopener noreferrer" >
                             <i className="fab fa-linkedin"></i>
                         </a>
                     </li>

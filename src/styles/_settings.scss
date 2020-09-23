@@ -4,8 +4,12 @@ $font-1: 'Nova Round', cursive;
 $font-2: 'Dosis', sans-serif;
 $font-3: 'Josefin Sans', serif;
 
-$color-1: #2a1d52;
+$color1: #3b2b69be;
+$color-1: #3a2b69a8;
+$color1_1: #3b2b69ea;
+
 $color-2: #6C77F4;
+$color2: #6c77f4cb;
 $color-3: rgb(99, 164, 233);
 $color-4: #4FED02;
 $color-5: #36D0EA;
@@ -29,11 +33,12 @@ $minHeight: 95vh;
 }
 
 body {
+    background-image: url("../media/univers2.jpg");
     margin: 1rem auto;
     max-width: 1200px;
     font-family: $font-1;
     color: $black;
-    background: rgba(216, 184, 184, 0.685);
+    // background: rgba(216, 184, 184, 0.685);
 }
 
 button {
