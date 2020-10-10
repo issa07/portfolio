@@ -6,7 +6,7 @@ import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Knowledges from './pages/Knowledges';
 import NotFound from './pages/NotFound';
-import Portfolio from './pages/Portfolio';
+import Projets from './pages/Portfolio';
 
 
 const App = () => {
@@ -17,7 +17,7 @@ const App = () => {
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/competences" component={Knowledges} />
-          <Route path="/portfolio" component={Portfolio} />
+          <Route path="/projets" component={Projets} />
           <Route path="/contact" component={Contact} />
           <Route component={NotFound} />
         </Switch>
