@@ -2,7 +2,7 @@ import React from 'react';
 import Navigation from '../components/Navigation';
 import ProjectList from '../components/portfolio/ProjectList';
 
-const Portfolio = () => {
+const Projets = () => {
     return (
         <div className="portfolio">
             <Navigation />
@@ -12,4 +12,4 @@ const Portfolio = () => {
     );
 };
 
-export default Portfolio;
+export default Projets;
