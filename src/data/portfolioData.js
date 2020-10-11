@@ -24,7 +24,7 @@ export const portfolioData = [
     languagesIcons: ['fab fa-js', 'fab fa-html5', 'fab fa-css3-alt'],
     source: 'http://www.github.com',
     info: "Vous allez devoir réaliser un jeu en utilisant la librairie jQuery reprenant les règles du célèbre jeu de Puissance 4.",
-    picture: './media/puissance4.png'
+    picture: '../media/puissance4.png'
   },
   {
     id: 4,
