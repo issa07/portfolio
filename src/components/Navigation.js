@@ -6,7 +6,7 @@ const Navigation = () => {
         <div className="sidebar">
             <div className="idImage">
                 <div className="idContent">
-                    <img src="./media/devp1.png" alt="profil-pic" id="profilPic"/>
+                    <img src="../media/devp1.png" alt="profil-pic" id="profilPic"/>
                     <h3>Issa DEMIRCI</h3>
                 </div>
             </div>
@@ -14,7 +14,7 @@ const Navigation = () => {
             <div className="navigation">
                 <ul>
                     <li>
-                        <NavLink exact to="/portfolio" activeClassName="navActive" >
+                        <NavLink exact to="/" activeClassName="navActive" >
                             <i className="fas fa-home" ></i>
                             <span>Accueil</span>
                         </NavLink>
